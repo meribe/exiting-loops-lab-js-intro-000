@@ -8,6 +8,7 @@ function breakOut(array, changeValue, stopValue){
   return array
 }
 
+
 function keepGoing(array, changeValue, skipValue){
   for (let i = 0; i < scores.length; i++) {
     if (array[i] === skipValue) {
@@ -25,7 +26,4 @@ function findBy(array, findFn){
       return array[i]
     }
   }
-}
-
-
 }
