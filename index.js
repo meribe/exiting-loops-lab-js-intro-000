@@ -20,12 +20,12 @@ function keepGoing(array, changeValue, skipValue){
 
 function findBy(array, findFn){
   for (let i = 0; i < scores.length; i++) {
-    
+
     if (findFn(array[i])) {
       return array[i]
     }
   }
 }
 
-  
+
 }
